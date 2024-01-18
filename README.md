@@ -20,6 +20,8 @@ pip install -r requirements.txt
 
 python main.py
 
+(Will not be executed due to the lack of the Facebook page token)
+
 ## Folder Structure
 
 - `main.py`: The main entry point of the program.
