@@ -1,10 +1,10 @@
-# euromillion-facebook-autopost
+# lottery-results-facebook-autopost
 
 ## Installation
 
 1. Clone the repository:
 
-git clone https://github.com/DavidTrindade98/euromillion-facebook-autopost
+git clone https://github.com/DavidTrindade98/lottery-results-facebook-autopost
 cd your_project
 
 2. Create and activate environment folder:
@@ -28,3 +28,17 @@ python main.py
 - `assets/`: Folder containing images and other resources used by the program.
 - `requirements.txt`: List of required Python packages for the project.
 - `env/`: Ignore this folder; it contains the virtual environment (automatically ignored by `.gitignore`).
+
+I adapted the code later to post diferent real lottery games:
+
+## Euromillion
+
+![alt text](./assets/repo-images/euromillion-1.jpg)
+
+## Totoloto
+
+![alt text](./assets/repo-images/totoloto-1.jpg)
+
+## M1lhão
+
+![alt text](./assets/repo-images/milhao-1.jpg)

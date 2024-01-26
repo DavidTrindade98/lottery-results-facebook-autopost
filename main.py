@@ -78,11 +78,13 @@ def post_message():
     
     print(r.text)
 
-schedule.every().tuesday.at("22:00").do(post_message)
-schedule.every().friday.at("22:00").do(post_message)
+# I replace this part bellow because the script was running on the Cpanel Cron Job Service to schedule and manage the Facebook posts.
 
-while True:
-    schedule.run_pending()
+#schedule.every().tuesday.at("22:00").do(post_message)
+#schedule.every().friday.at("22:00").do(post_message)
+
+#while True:
+    #schedule.run_pending()
 
 
 
